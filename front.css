@@ -1,0 +1,20 @@
+@import url(https://fonts.googleapis.com/css?family=Arimo:400,400italic|Playfair+Display+SC:400,700&subset=latin,cyrillic);
+
+      body {
+        background: #e5f9f9;
+        max-width: 1200px;
+        margin: 5px auto;
+        padding: 30px;
+        font-family: 'Playfair Display SC', serif;
+      }
+
+      h1 {
+        color: #4e1448;
+        padding-bottom: 5px;
+        margin-bottom: 5px;
+        border-bottom: 5px solid #bebebe;
+        font-family: 'Arimo', sans-serif;
+      }
+      p {
+        font: italic;
+      }
