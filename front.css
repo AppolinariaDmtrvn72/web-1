@@ -2,9 +2,14 @@
 
       body {
         background: #e5f9f9;
+        color:#000080;
         max-width: 1200px;
+        line-height: normal;
         margin: 5px auto;
         padding: 30px;
+        text-align: left;
+        vertical-align: baseline;
+        
         font-family: 'Playfair Display SC', serif;
       }
 
@@ -14,7 +19,14 @@
         margin-bottom: 5px;
         border-bottom: 5px solid #bebebe;
         font-family: 'Arimo', sans-serif;
+        text-align: left;
       }
-      p {
-        font: italic;
+       h2 {
+        color: /*#4e1448 */rgba(0,0,255,0.3);
+        padding-bottom: 5px;
+        margin-bottom: 5px;
+        font-family: 'Arimo', sans-serif;
+        text-align: left;
+        border: 1px solid #bebebe ;
+        padding: 10px;
       }
