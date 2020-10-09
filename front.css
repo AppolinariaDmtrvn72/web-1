@@ -30,3 +30,8 @@
         border: 1px solid #bebebe ;
         padding: 10px;
       }
+      h4 {
+        text-decoration-line: underline;
+        text-decoration-style: wavy;
+        text-decoration-color:#4e1448;
+      }
