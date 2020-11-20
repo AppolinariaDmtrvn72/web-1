@@ -69,3 +69,78 @@ input:checked + label{ font-weight:bold; background:#ccc; }
     margin-right: 20px; /* Отступ справа */
     width: 30%; /* Ширина блока */
    }
+.content {
+  width: 80%;
+  margin: 0 auto;
+}
+.btn {
+  padding: 15px;
+  color: #FFF;
+  display: inline-block;
+  background: #000;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.popup {
+  position: absolute;
+  left: 50%;
+  margin-left: -160px;
+  display: none;
+  width: 280px;
+  padding: 20px;
+  background: grey;
+  color: #FFF;
+  text-align: center;
+}
+.tilte {
+  font-size: 20px;
+  line-height: 25px;
+  margin: 0 0 20px
+  font-weight: auto;
+}
+input {
+  display: block;
+  width: 100%;
+  margin: 0 0 20px;
+}
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+.column img {
+    opacity: 0.8; 
+    cursor: pointer; 
+}
+
+.column img:hover {
+    opacity: 1;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    position: relative;
+    display: none;
+}
+
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+}
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
