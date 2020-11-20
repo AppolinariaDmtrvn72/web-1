@@ -1,0 +1,35 @@
+var arr = [];
+for (var i=0, t=1000; i<t; i++) {
+    arr.push(Math.round(Math.random() * t))
+}
+alert(arr);
+var middle = Math.floor((arr.length - 1) / 2); // NB: operator precedence
+    if (arr.length % 2) {
+        alert(arr[middle]);
+    } else {
+        alert(arr[middle] + arr[middle + 1]) / 2.0;
+    }
+
+
+let max;
+let min = arr[0];
+for(let i = 0; i < arr.length; i++){
+        if((arr[i]) < min){
+            min = arr[i]; 
+        } else {
+            max = arr[i];
+        }
+    }
+alert(max);
+alert(min);
+function QuickSort(arr)
+{
+    if (arr.length == 0) return [];
+    var a = [], b = [], p = arr[0];
+    for (var i = 1; i < arr.length; i++)
+     { if (arr[ i ] < p) a[a.length] = arr[ i ];
+       else b[b.length] = arr[ i ];
+     }
+    return QuickSort(a).concat( p,QuickSort(b) );
+}
+document.write(QuickSort(arr));
